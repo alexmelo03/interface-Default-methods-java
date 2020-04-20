@@ -1,10 +1,10 @@
 package services;
 
-public class BrazilImposto implements ServicoJuros {
+public class UsaImposto implements ServicoJuros {
 	
 	private double taxaJuros;
 
-	public BrazilImposto(double taxaJuros) {
+	public UsaImposto(double taxaJuros) {
 		this.taxaJuros = taxaJuros;
 	}
 
@@ -14,7 +14,7 @@ public class BrazilImposto implements ServicoJuros {
 
 	@Override
 	public double getServivoJuros() {
-		return taxaJuros;
+		return taxaJuros ;
 	}
 
 	
